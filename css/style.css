@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header{}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+    float: left;
+    margin-top: 30px;
+}
+.logo img{
+	width: 100%;
+}
+.manu{
+	width: 75%;
+	float: right;
+}
+.manu ul{
+	float: right;
+}
+.manu ul li{
+	list-style: none;
+	float: left;
+}
+.manu ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 35px 60px;
+	text-transform: uppercase;
+	color:#626262;
+	transition: .5s;
+	font-size: 14px;
+
+}
+.manu ul li:last-child a{
+	padding-right: 0;
+}
+.manu ul li a:hover{
+	color: #262322;
+}
+/*header start*/
+/*banner start*/
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+/*parfect start*/
+.parfect{
+	padding: 60px 0;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+.parfect_content{}
+.parfect_content h1{
+	font-weight: 400;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.parfect_content .text{
+	font-size: 14px;
+    line-height: 1.5;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+
+}
+.common{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+}
+/*parfect end*/
+/* blog start*/
+.blog{
+padding: 60px 0;
+}
+.single{
+	width: 47%;
+	float: left;
+	padding-bottom:50px;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.single h1{
+	font-weight: 400;
+	font-size: 30px;
+	margin:20px 0 25px;
+}
+.single p:last-child{
+	font-size: 14px;
+	line-height: 1.5;
+}
+/* blog end*/
+/*newsletter start*/
+.newsletter{
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.container4{
+	width: 60%;
+	margin: 0 auto;
+}
+.signup{
+	text-align: center;
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+.for_form{
+	width: 350px;
+	left: 0;
+	right: 0;
+    margin: 0 auto;
+    position: relative;
+}
+.for_form input{
+	border: none;
+    background: transparent;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    padding: 10px 50px 10px 10px;
+    width: 300px;
+
+}
+.for_form button{
+	border: none;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: -8px;
+}
+/*newsletter end*/
+/*blog2 start*/
+.blog2{
+	padding: 80px 0;
+}
+/*blog2 end*/
+/*button start*/
+.btn{
+	margin-top: -69px;
+	margin-bottom: 70px;
+}
+.container3{
+	text-align: center;
+	
+}
+.container3 button{
+	padding: 22px 45px;
+	font-size: 20px;
+	border: none;
+	border: 1px solid #626262;
+	background: transparent;
+	transition: .5s;
+	margin:90px 0 90px;
+}
+.container3 button:hover{
+	color: white;
+	background-color: #626262;
+	border: 1px solid #ffffff;
+
+}
+
+/*button end*/
+/*footer start*/
+footer{
+	background-color:#f0f0f0;
+}
+.footer_manu{
+	width: 30%;
+	float: ;left;
+}
+.footer_manu ul{
+	margin: 35px 0;
+}
+.footer_manu ul li{
+	display: inline;
+	color: #404040;
+	font-size:14px;
+	margin-right: 14px;
+}
+.icon{
+	width: 17%;
+    float: right;
+    margin-top: -74px
+}
+.icon ul{
+	list-style: none;
+	padding: 20px;
+}
+.icon ul li{
+	display: inline;
+}
+.icon ul li a{
+	padding: 0;
+	font-size: 14px;
+	text-decoration: none;
+	color:#404040;
+	padding: 0 10px;
+
+}
+.icon ul li :last-child a{
+	padding-right: 0;
+}
+/*footer end*/
